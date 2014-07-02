@@ -45,7 +45,6 @@ def add_group(fp, handle, seqs):
 
 
 def main(args):
-    print args
     train_seqs = create_seqs(
         int(args['--n-train']), int(args['--time-steps']),
         int(args['--n-balls']), int(args['--res']))
